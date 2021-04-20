@@ -1,0 +1,96 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("https://image.freepik.com/fotos-gratis/sinal-de-interrogacao-sinal-de-transito-background_165073-1135.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.principal{
+  width: 900px;
+  height: 500px;
+  background-color: #f7fbbd;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  margin: auto auto;
+  text-align: center;
+}
+.principal h1{
+  font-family: 'Concert One', cursive;
+/*   text-shadow: #4d4d4d 2px 2px 2px; */
+  text-shadow: #f0ea12 2px 2px 2px;
+/*   color: #f0ea12; */
+  color: #222525;
+  font-size: 50px;
+}
+.principal p{
+  font-size: 25px;
+}
+.instrucao{
+  width: 600px;
+  margin: auto auto;
+}
+.instrucao p{
+  width: 600px;
+  font-size: 20px;
+}
+.logo{
+  width: 900px;
+  margin: auto auto;
+  text-align: center;
+}
+.page-logo{
+  width: 175px;
+  margin: 30px;
+}
+.formulario{
+  width: 400px;
+  margin: auto auto;
+}
+.formulario label{
+  width: 600px;
+  font-size: 18px;
+  padding: 15px;
+}
+.formulario input[type="text"]{
+  background: transparent;
+  border: transparent;
+  border-bottom: 1px solid #262626;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+.formulario input[type="text"]{
+  position: relative;
+}
+.formulario input[type="submit"]{
+  display: inline;
+  width: 100px;
+  padding: 7px 5px;
+  background-color: #fbec5d;
+  border: 1px solid #000;
+  border-radius: 25px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  margin: auto auto;
+}
+.formulario input[type="submit"]:hover{
+  background-color: #000;
+  border: 1px solid #fbec5d;
+  color: #fbec5d;
+}
+#btn3{
+  display: none;
+}
+.active{
+  display: block;
+}
+#resultado{
+  margin: 25px 200px;
+  font-size: 20px;
+  padding: 5px;
+  border: 2px dotted #000;
+  border-radius: 15px;
+  display: none;
+}
+.formulario p{
+  font-size: 16px;
+}

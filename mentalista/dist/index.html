@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Mentalista</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="logo">
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" class="page-logo"
+            alt="">
+    </div>
+    <div class="principal">
+      <h1>Mentalista</h1>
+      <p>Será que eu consigo adivinhar?</p>
+      <div class="instrucao">
+        <p>Pense em um número entre 1 e 10 e responda com MENOR ou MAIOR as perguntas a seguir.</p>
+      </div>
+      <div class="formulario">
+        <p>Caso este seja o número, clique em "Correto"</p>
+        <label id="teste" for="envio"></label>
+        <input type="text" id="envio">
+        <input class="btn active" id="btn1" type="submit" value="Enviar" onclick="getResposta()">
+        <input class="btn active" id="btn2" type="submit" value="Correto" onclick="correto();">
+        <input class="btn" id="btn3" type="submit" value="Errado" onclick="errado()">
+      </div>
+      <div id="resultado">
+        
+      </div>
+    </div>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
