@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  </head>
+  <body>
+    <div class="container">
+<!--        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo"
+            alt=""> -->
+      <img src="https://upload.wikimedia.org/wikipedia/pt/6/6f/Adventure_Time_logo.png" class="logo" alt="">
+<!--       <h1>Super Trunfo</h1> -->
+      <div class="caixa">
+        <h3>Quem vence essa disputa?</h3>
+        <p>Selecione um de seus atributos</p>
+<!--         <div class="barra">
+          <div class="progresso"></div>
+        </div> -->
+      </div>
+      <div class="principal">
+        <div class="jogador">
+          <div class="carta" id="player">
+            
+          </div>
+        </div>
+        <div class="funcoes">
+          <div>
+            <input type="submit" id="btnSortear" onclick="sortearCarta()" value="Sortear carta">
+          </div>
+          <div class="opcoes" id="opcoes">
+            
+          </div>
+          <div>
+            <input type="submit" id="btnJogar" onclick="jogar()" value="Jogar" disabled="true">
+          </div>
+        </div>
+        <div class="maquina">
+          <div class="carta" id="computador">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

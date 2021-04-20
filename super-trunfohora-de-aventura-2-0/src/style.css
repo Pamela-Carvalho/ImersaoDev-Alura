@@ -1,0 +1,164 @@
+body{
+  font-family: 'Libre Franklin', sans-serif;
+  background-image: url("https://c.wallhere.com/photos/94/ee/1920x1080_px_Adventure_Time-1510201.jpg!d");
+  background-size: 100%;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+/* .page-logo{
+  transform: scale(0.4, 0.4);
+} */
+.logo{
+  margin-top: -50px;
+  margin-bottom: -50px;
+  transform: scale(0.3, 0.3);
+}
+.caixa{
+  min-width: 375px;
+  width: 50%;
+/*   height: 82px; */
+  margin: auto auto;
+  letter-spacing: 1.2px;
+  padding: 15px 75px;
+  border-radius: 25px;
+  background-color: #f19994;
+/*   background-color: #35869b; */
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+.caixa p{
+  font-size: 15px;
+  margin-top: -20px;
+}
+.principal{
+  min-width: 400px;
+  width: 90%;
+  margin: auto auto;
+/*   background: white; */
+  display: flex;
+  margin-top: 25px;
+}
+.jogador, .maquina{
+  min-width: 300px;
+  margin: auto auto;
+  margin-bottom: 30px;
+  width: 30%;
+/*   background: gray; */
+}
+.funcoes{
+/*   background: black; */
+  min-width: 300px;
+  width: 25%;
+  margin: auto auto;
+}
+.funcoes div{
+  min-width: 300px;
+  margin: 10px 0;
+}
+.carta{
+  width: 250px;
+  height: 525px;
+  background-color: #f3f4a4;
+  border-radius: 25px;
+  margin: auto auto;
+  vertical-align: middle;
+  border: 1px solid #e6e73c;
+  box-shadow: #e6e73c 3px 3px 5px;
+  visibility: hidden;
+  padding: 10px;
+}
+.funcoes input[type="submit"]{
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 7px;
+  background-color: #f19994;
+}
+.funcoes input[type="submit"]:hover{
+  transform: scale(1.02, 1.02);
+  box-shadow: #e95049 2px 2px 5px;
+  transition: 0.5s;
+}
+.escolha{
+  background-color: rgba(230, 231, 60, 0.8);
+  border-radius: 25px;
+}
+.escolha{
+  padding: 10px;
+  margin: -5px;
+}
+.carta img{
+/*   transform: scale(0.3, 0.3); */
+  width: 100px;
+  height: 100px;
+  margin -5px 0;
+}
+.oponente{
+  visibility: hidden;
+}
+.bandeiraNome{
+  width: 200px !important;
+  position: relative;
+}
+h4{
+  margin: -65px 0 0;
+  position: relative;
+}
+.moldura{
+  width: 125px !important;
+  height: 125px !important;
+}
+.alinharFoto{
+  margin-top: -118px;
+}
+.atributos{
+  text-align: left;
+  background-color: #35869b;
+  margin: -30px 10px;
+  padding: 0 10px 10px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 1px;
+  height: 330px;
+}
+.atributos p{
+  display: inline-block;
+  width: 202px;
+}
+.atributos input{
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  display: none;
+}
+.atributos label{
+  padding: 0 5px;
+}
+.atributos input[type="radio"]:checked + label {
+/*   outline: 3px dotted #f3a3a0; */
+  outline: 3px dotted #f3f4a4;
+}
+.divisor{
+  width: 230px !important;
+  height: 50px !important;
+  margin-top: -60px;
+}
+.barra{
+  height: 10px;
+  padding: 2px 3px;
+  background-color: #f3f4a4;
+  display: flex;
+  border-radius: 15px;
+}
+.progresso{
+  background-color: red;
+  border-radius: 15px;
+} 
+#vs{
+  padding: 100px 50px 0;
+  position: absolute;
+}

@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  </head>
+  <body>
+<!--     <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo" alt=""> -->
+    <div class="container">
+<!--       <img class="logo-tema" src="https://static.wikia.nocookie.net/gravityfalls/images/c/c2/Gravity_Falls_logo.png/revision/latest?cb=20140109190719&path-prefix=pt" alt=""> -->
+      <img class="logo-tema" src="https://upload.wikimedia.org/wikipedia/sco/c/c2/Gravity_Falls_logo.png" alt="">
+<!--       <h1>Super Trunfo</h1> -->
+      <div class="caixa">
+        <h3>Quem vence essa disputa?</h3>
+        <p>Selecione um de seus atributos</p>
+<!--         <img src="https://i.pinimg.com/originals/8f/a7/93/8fa793226f091226675b454017afb7c7.png" alt=""> -->
+      </div>
+      <div class="principal">
+        <div class="jogador">
+          <div class="carta" id="player">
+            
+          </div>
+        </div>
+        <div class="funcoes">
+          <div id="placar">
+            
+          </div>
+          <div id="quantidade-cartas">
+            
+          </div>
+          <div>
+            <input type="submit" id="btnSortear" onclick="sortearCarta()" value="Sortear carta">
+          </div>
+          <div>
+            <input type="submit" id="btnJogar" onclick="jogar()" value="Jogar" disabled="true">
+          </div>
+          <div>
+            <input type="submit" id="btnProximo" onclick="proximaRodada()" value="Próxima rodada" disabled="true">
+          </div>
+        </div>
+        <div class="maquina">
+          <div class="carta" id="computador">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
