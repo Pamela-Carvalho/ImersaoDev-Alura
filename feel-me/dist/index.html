@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Feel Me</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+<!--     referência dos filmes: https://www.imdb.com/ -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Feel Me</h1>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+    <div class="container">
+      <h2>CATÁLOGO</h2>
+      <div class="pesquisa">
+				<button type="submit">&#8981;</button>  
+				<input type="text" id="busca" onkeyup="pesquisar()" placeholder="Pesquise por um título" title="Procure em nosso catálogo">
+			</div>
+      <div class="filmes" id="filmes">
+        
+      </div>
+      <div id="0" class="alinhar">
+        <div class="cartaz1 sinopse">
+          <a href="#filmes" class="btn-close" id="close"><strong>x</strong></a>
+          <div>
+            <img src="https://m.media-amazon.com/images/M/MV5BMTEzNDc3MDQ2NzNeQTJeQWpwZ15BbWU4MDYzMzUwMDIx._V1_UX182_CR0,0,182,268_AL_.jpg" alt="">
+            <h4>Gravity Falls</h4>
+            <p>Twin siblings Dipper and Mabel Pines spend the summer at their great-uncle's tourist trap in the enigmatic Gravity Falls, Oregon.</p>
+          </div>
+        </div>
+      </div>
+      <div id="1" class="alinhar">
+        <div class="cartaz2 sinopse">
+          <a href="#filmes" class="btn-close" id="close"><strong>x</strong></a>
+          <div>
+            <img src="https://m.media-amazon.com/images/M/MV5BZGY2ZGFkYjctOWY2Ni00MGQ5LWE4OTItNjJhNzA5MWFmMjk1XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="">
+            <h4>Hora de Aventura</h4>
+            <p>A 12-year-old boy and his best friend, wise 28-year-old dog with magical powers, go on a series of surreal adventures with each other in a remote future.</p>
+          </div>
+        </div>
+      </div>
+      <div id="2" class="alinhar">
+        <div class="cartaz3 sinopse">
+          <a href="#filmes" class="btn-close" id="close"><strong>x</strong></a>
+          <div>
+            <img src="https://m.media-amazon.com/images/M/MV5BMTc1NjcxNzg4MF5BMl5BanBnXkFtZTgwOTMzNzgyMDE@._V1_UY268_CR1,0,182,268_AL_.jpg" alt="">
+            <h4>Phineas e Ferb</h4>
+            <p>Phineas and Ferb invent, scheme, and stay one step ahead of their bratty sister. Meanwhile, their pet platypus plots against evil Dr. Doofenshmirtz.</p>
+          </div>
+        </div>
+      </div>
+      <div id="3" class="alinhar">
+        <div class="cartaz4 sinopse">
+          <a href="#filmes" class="btn-close" id="close"><strong>x</strong></a>
+          <div>
+            <img src="https://m.media-amazon.com/images/M/MV5BNTNjMTM1YWYtZWQ3Yy00OGI1LWEyZjUtYTk3OTk5NGIxMzIyXkEyXkFqcGdeQXVyMzM4NjcxOTc@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="">
+            <h4>Steven Universo</h4>
+            <p>A team of intergalactic warriors fights to protect the universe, but the combination of three highly trained beings and one quirky young boy leaves the team struggling to overcome the dangerous scenarios that are put in front of them.</p>
+          </div>
+        </div>
+      </div>
+      <div id="4" class="alinhar">
+        <div class="cartaz5 sinopse">
+          <a href="#filmes" class="btn-close" id="close"><strong>x</strong></a>
+          <div>
+            <img src="https://m.media-amazon.com/images/M/MV5BZGUzZjRiMTYtZmNjYi00MWU4LWEzMTYtYTI0MWIxODE5YTUzXkEyXkFqcGdeQXVyODUwNjEzMzg@._V1_UY268_CR0,0,182,268_AL_.jpg" alt="">
+            <h4>The Loud House</h4>
+            <p>Lincoln Loud is an eleven-year-old boy who lives with ten sisters. With the help of his right-hand man Clyde, Lincoln finds new ways to survive in such a large family every day.</p>
+          </div>
+        </div>
+      </div>
+      <div id="5" class="alinhar">
+        <div class="cartaz6 sinopse">
+          <a href="#filmes" class="btn-close" id="close"><strong>x</strong></a>
+          <div>
+            <img src="https://m.media-amazon.com/images/M/MV5BYjEzOTExOTEtZmEyZC00MGQ2LWFmMjQtZGY2MDg2ZGY4YWVmXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="">
+            <h4>Kick Buttowski</h4>
+            <p>A satirical look at an 8 year old boy that aspires to be the most hardcore daredevil in existence.</p>
+          </div>
+        </div>
+      </div>
+      <div id="6" class="alinhar">
+        <div class="cartaz7 sinopse">
+          <a href="#filmes" class="btn-close" id="close"><strong>x</strong></a>
+          <div>
+            <img src="https://m.media-amazon.com/images/M/MV5BMTM3MjYwODA3MV5BMl5BanBnXkFtZTcwOTc5Nzc4Nw@@._V1_UY268_CR0,0,182,268_AL_.jpg" alt="">
+            <h4>Apenas um Show</h4>
+            <p>The daily surreal adventures of a blue jay and raccoon duo that attempt to deal with their mundane jobs as groundskeepers at the local park.</p>
+          </div>
+        </div>
+      </div>
+      <div id="7" class="alinhar">
+        <div class="cartaz8 sinopse">
+          <a href="#filmes" class="btn-close" id="close"><strong>x</strong></a>
+          <div>
+            <img src="https://m.media-amazon.com/images/M/MV5BYmFlMDZkMWItZjVkMi00MzhmLWFhMjUtYTRjNjE1ZjE5ZGMzXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="">
+            <h4>Chowder</h4>
+            <p>In Marzipan City, the young, excitable food-loving Chowder is the apprentice of Mung Daal, a very old chef who runs a catering company with his wife, Truffles and assistant, Shnitzel.</p>
+          </div>
+        </div>
+      </div>
+      <div id="8" class="alinhar">
+        <div class="cartaz9 sinopse">
+          <a href="#filmes" class="btn-close" id="close"><strong>x</strong></a>
+          <div>
+            <img src="https://m.media-amazon.com/images/M/MV5BNDAyNmRhZGUtMjAxYS00Y2VhLTllYzEtYzM4MjU2MzU3ZmZjXkEyXkFqcGdeQXVyNzg1MDQ1NzA@._V1_UY268_CR9,0,182,268_AL_.jpg" alt="">
+            <h4>Titio Avô</h4>
+            <p>The misadventures of a magical uncle and grandpa to everyone in the world and his friends.</p>
+          </div>
+        </div>
+      </div>
+      <div id="9" class="alinhar">
+        <div class="cartaz10 sinopse">
+          <a href="#filmes" class="btn-close" id="close"><strong>x</strong></a>
+          <div>
+            <img src="https://m.media-amazon.com/images/M/MV5BMTY2ZTAxNWUtYjVjYy00OWE1LWE0YTktNWU2MjFhZmRiMTAzXkEyXkFqcGdeQXVyMzM4NjcxOTc@._V1_UY268_CR12,0,182,268_AL_.jpg" alt="">
+            <h4>Clarêncio - O Otimista</h4>
+            <p>The adventures of a 4th grader named Clarence along with his two best friends, Sumo and Jeff.</p>
+          </div>
+        </div>
+      </div>
+      <div id="10" class="alinhar">
+        <div class="cartaz11 sinopse">
+          <a href="#filmes" class="btn-close" id="close"><strong>x</strong></a>
+          <div>
+            <img src="https://m.media-amazon.com/images/M/MV5BNTk2NzEyNTQtZTQ5MS00MjAyLTgzMDMtNDNkYTBkM2M2OTU3XkEyXkFqcGdeQXVyODUwNjEzMzg@._V1_UX182_CR0,0,182,268_AL_.jpg" alt="">
+            <h4>Bob Esponja - Calça Quadrada</h4>
+            <p>The misadventures of a talking sea sponge who works at a fast food restaurant, attends a boating school, and lives in an underwater pineapple.</p>
+          </div>
+        </div>
+      </div>
+      <div id="11" class="alinhar">
+        <div class="cartaz12 sinopse">
+          <a href="#filmes" class="btn-close" id="close"><strong>x</strong></a>
+          <div>
+            <img src="https://m.media-amazon.com/images/M/MV5BNjdiZjEzZmEtZDc1Yi00NGRhLThmYWItODMyNWM1NGExMzViXkEyXkFqcGdeQXVyMTEwOTMwMjk0._V1_UY268_CR0,0,182,268_AL_.jpg" alt="">
+            <h4>O Incrível Mundo de Gumball</h4>
+            <p>The life of a twelve-year-old boy who happens to be a blue cat as he lives with his family and other strange creatures.</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
