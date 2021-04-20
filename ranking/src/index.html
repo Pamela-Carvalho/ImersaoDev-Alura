@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Fredoka+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="typing">Ranking</h1>
+      <div class="principal">
+        <table>
+          <thead>
+            <th>Posição</th>
+            <th>Jogador</th>
+            <th>Vitórias</th>
+            <th>Derrotas</th>
+            <th>Empates</th>
+            <th>Pontos</th>
+            <th colspan="3">Ação</th>
+          </thead>
+          <tbody id="dadosTabela">
+<!--             <tr>
+              <td>1°</td>
+              <td>Nome</td>
+              <td>1</td>
+              <td>1</td>
+              <td>2</td>
+              <td>5</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+      <div class="controle">
+        <div>
+          <label for="jogador">Informe o nome do novo jogador(a)</label>
+          <input type="text" id="jogador" placeholder="Digite aqui" required="required">
+        </div>
+        <input type="submit" value="Adicionar" onclick="adicionar()">
+      </div>
+    </div>
+  </body>
+</html>

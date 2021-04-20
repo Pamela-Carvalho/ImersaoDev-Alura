@@ -1,0 +1,81 @@
+body{
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #dbff94;
+  padding: 50px 0;
+}
+.container{
+  min-width: 400px;
+  width: 75%;
+  height: 500px auto;
+  margin: auto auto;
+  text-align: center;
+  padding: 25px;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+h1{
+  color: #55721d;
+  text-shadow: #fff 1px 1px 1px;
+}
+.principal{
+  text-align: center;
+  min-width: 650px;
+  width: 90%;
+  margin: auto auto;
+}
+.principal table{
+  margin: auto auto;
+}
+.principal th{
+  width: 100px;
+  padding: 5px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.principal td{
+  padding: 5px;
+}
+.principal img{
+  width: 25px;
+  height: 25px;
+}
+.controle input[type="text"]{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 5px;
+  margin-top: 10px;
+}
+.controle input[type="submit"]{
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background-color: #55721d;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin: 15px;
+}
+.controle input[type="submit"]:hover{
+  color: #55721d;
+  background-color: transparent;
+  border: 1px solid #55721d;
+}
+.controle{
+  width: 300px;
+  margin: auto auto;
+  padding: 25px;
+}
+.principal button{
+  color: #55721d;
+  background-color: transparent;
+  border: 1px solid #55721d;
+  padding: 8px;
+  border-radius: 10px;
+}
+.principal button:hover{
+  color: #fff;
+  background-color: #55721d;
+  border: 1px solid #fff;
+}
